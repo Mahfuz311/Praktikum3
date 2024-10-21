@@ -87,3 +87,5 @@ Penjelasan Kode:
 3. Cek Input: Jika bilangan yang dimasukkan adalah 0, program akan keluar dari loop.
 4. Perbandingan: Jika bilangan yang dimasukkan lebih besar dari terbesar, maka nilai terbesar diperbarui.
 5. Output: Setelah loop selesai, program akan menampilkan bilangan terbesar yang ditemukan.
+
+Sekian Terimakasih 
