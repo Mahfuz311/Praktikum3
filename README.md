@@ -59,25 +59,25 @@ Contoh Kode Python
 
 Pseudocode nya
 
-# Inisialisasi variabel
-terbesar = float('-inf')  # Menggunakan nilai terendah sebagai awal
+  # Inisialisasi variabel
+  terbesar = float('-inf')  # Menggunakan nilai terendah sebagai awal
 
-# Input bilangan
-while True:
-    bilangan = float(input("Masukkan bilangan (masukkan 0 untuk selesai): "))
+  # Input bilangan
+  while True:
+      bilangan = float(input("Masukkan bilangan (masukkan 0 untuk selesai): "))
     
-    if bilangan == 0:
-        break  # Menghentikan input jika pengguna memasukkan 0
+      if bilangan == 0:
+          break  # Menghentikan input jika pengguna memasukkan 0
     
-    # Bandingkan dengan nilai terbesar
-    if bilangan > terbesar:
-        terbesar = bilangan
+      # Bandingkan dengan nilai terbesar
+      if bilangan > terbesar:
+          terbesar = bilangan
 
-# Menampilkan hasil
-if terbesar == float('-inf'):
-    print("Tidak ada bilangan yang dimasukkan.")
-else:
-    print(f"Bilangan terbesar adalah: {terbesar}")
+  # Menampilkan hasil
+  if terbesar == float('-inf'):
+      print("Tidak ada bilangan yang dimasukkan.")
+  else:
+      print(f"Bilangan terbesar adalah: {terbesar}")
 
 Penjelasan Kode:
 
