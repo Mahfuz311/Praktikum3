@@ -11,4 +11,5 @@ Program pertama yang akan dibuat adalah Program untuk menampilkan bilangan terbe
 
 Berikut flowchartnya
 
-Screenshot 2024-10-13 111907.png
+![Screenshot 2024-10-13 111907](https://github.com/user-attachments/assets/1fa56203-8fae-4001-90d1-5bbde042724f)
+
