@@ -1,5 +1,5 @@
 # Membuat Kode Progra dari Flowchart Pertemuan Ke-5
-Nama : MAhfuz Fauzi
+Nama : Mahfuz Fauzi
 
 Kelas : TI.24.A.3
 
