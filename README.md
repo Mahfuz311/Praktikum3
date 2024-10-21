@@ -46,3 +46,44 @@ Input: Mengambil input dari pengguna untuk 3 bilangan.
 Logika Perbandingan: Menggunakan kondisi Jika untuk membandingkan bilangan dan menentukan yang terbesar.
 Output: Menampilkan hasil bilangan terbesar.
 Selesai: Menyelesaikan program.
+
+## 2. Bilangan N
+
+Program Kedua adalah untuk membandingkan bilangan yang di Input, input akan terus berjalan kecuali user memasukkan nilai 0
+
+Flowchartnya
+![FLOWCHART N drawio](https://github.com/user-attachments/assets/a82519e4-531e-4a76-aca3-746d9aebeeda)
+
+Contoh Kode Python
+![Screenshot 2024-10-21 190741](https://github.com/user-attachments/assets/b0e7d73c-400c-41a5-8d9a-69b1594016d2)
+
+Pseudocode nya
+
+# Inisialisasi variabel
+terbesar = float('-inf')  # Menggunakan nilai terendah sebagai awal
+
+# Input bilangan
+while True:
+    bilangan = float(input("Masukkan bilangan (masukkan 0 untuk selesai): "))
+    
+    if bilangan == 0:
+        break  # Menghentikan input jika pengguna memasukkan 0
+    
+    # Bandingkan dengan nilai terbesar
+    if bilangan > terbesar:
+        terbesar = bilangan
+
+# Menampilkan hasil
+if terbesar == float('-inf'):
+    print("Tidak ada bilangan yang dimasukkan.")
+else:
+    print(f"Bilangan terbesar adalah: {terbesar}")
+
+Penjelasan Kode:
+
+
+1. Inisialisasi: Variabel terbesar diatur ke nilai terendah.
+2. Input Bilangan: Menggunakan loop while untuk terus meminta input hingga pengguna memasukkan 0.
+3. Cek Input: Jika bilangan yang dimasukkan adalah 0, program akan keluar dari loop.
+4. Perbandingan: Jika bilangan yang dimasukkan lebih besar dari terbesar, maka nilai terbesar diperbarui.
+5. Output: Setelah loop selesai, program akan menampilkan bilangan terbesar yang ditemukan.
