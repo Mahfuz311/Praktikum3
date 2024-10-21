@@ -11,4 +11,5 @@ Program pertama yang akan dibuat adalah Program untuk menampilkan bilangan terbe
 
 Berikut flowchartnya
 
-![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.]
+![Screenshot of a comment on a GitHub issue showing an image, added in the Markdown, of an Octocat smiling and raising a tentacle.]Screenshot 2024-10-13 111907.png
+
